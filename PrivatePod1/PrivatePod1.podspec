@@ -31,5 +31,6 @@ Pod::Spec.new do |s|
     # sp.name             = 'PrivatePod1_V3'
     sp.source = { :git => 'https://github.com/bachnd2k1/PrivatePod1', :tag => '0.3' }
     sp.source_files = 'PrivatePod1/Classes/**/*.{h,m}'
+    sp.module_name = 'PrivatePod1_V3'
   end
 end
