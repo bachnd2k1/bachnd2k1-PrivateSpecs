@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
 
   s.source_files = 'PrivatePod1/Classes/**/*.{h,m,swift}'
 
-    s.subspec 'Version0_2' do |sp|
-    sp.source = { :git => 'https://github.com/bachnd2k1/PrivatePod1', :tag => '0.2' }
-    sp.source_files = 'PrivatePod1/Classes/**/*.{h,m}'
-  end
+  #   s.subspec 'Version0_2' do |sp|
+  #   sp.source = { :git => 'https://github.com/bachnd2k1/PrivatePod1', :tag => '0.2' }
+  #   sp.source_files = 'PrivatePod1/Classes/**/*.{h,m}'
+  # end
 
   s.subspec 'Version0_3' do |sp|
     sp.source = { :git => 'https://github.com/bachnd2k1/PrivatePod1', :tag => '0.3' }
