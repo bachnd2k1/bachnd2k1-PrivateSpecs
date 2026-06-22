@@ -8,18 +8,26 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PrivatePod1'
-  s.version          = '0.2'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of PrivatePod1.'
 
   s.homepage         = 'https://github.com/bachnd2k1/PrivatePod1'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bachnd2k1' => 'motirelia612@gmail.com' }
   s.source           = { :git => 'https://github.com/bachnd2k1/PrivatePod1.git', :tag => s.version.to_s }
-  s.summary = "SDK PrivatePod1"
-
   s.ios.deployment_target = "11.0"
-  s.swift_version = ["5"]
+  s.swift_version = '5.0'
 
   s.source_files = 'PrivatePod1/Classes/**/*.{h,m,swift}'
 
+  #   s.subspec 'Version0_2' do |sp|
+  #   sp.source = { :git => 'https://github.com/bachnd2k1/PrivatePod1', :tag => '0.2' }
+  #   sp.source_files = 'Classes/**/*.{h,m}'
+  # end
+
+  # s.subspec 'Version0_3' do |sp|
+  #   # sp.name             = 'PrivatePod1_V3'
+  #   sp.source = { :git => 'https://github.com/username/PrivatePod1.git', :tag => '0.3' }
+  #   sp.source_files = 'PrivatePod1/Classes/**/*.{h,m,swift}'
+  # end
 end
